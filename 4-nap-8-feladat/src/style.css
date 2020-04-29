@@ -1,0 +1,48 @@
+div{
+  display:flex;
+  flex-wrap:wrap;
+  
+  
+  
+}
+
+header,footer{
+  background:aqua;
+  height:100px;
+  width:100%;
+}
+main,aside{
+  height:300px;
+}
+
+footer{
+  background:blue;
+}
+aside{
+  width:10%;
+}
+.orange{
+  background:orange;
+}
+.purple{
+  background:purple;
+}
+main{
+  background:red;
+  margin:0 20px;
+  flex-grow:4;
+  position:relative;
+}
+side{
+  background:black;
+  height:42px;
+  width:42px;
+  position:fixed;
+  bottom:450px;
+  left:1250px;
+  
+    
+  
+  
+}
+ 
